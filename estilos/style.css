@@ -36,6 +36,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
+    
+    transition: widht 0.3s, height 0.3;
+    transition-timing-function: ease;
 }
 section#login > div#imagem {
     display: block;
@@ -48,4 +51,11 @@ section#login >div#formulario {
     display: block;
     padding: 10px;
 
+}
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p {
+    font-size: 0.8em;
 }
